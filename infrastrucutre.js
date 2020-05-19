@@ -9,15 +9,6 @@ fetchPromise2.then(response => {
   bAndI.innerHTML = listOfNames2(people);
 });
 function listOfNames2(people) {
-  const names2 = people.map(person => `<tr>
-  										<td>${person.Name}</td>
-  										<td>${person.Type}</td>
-  										<td>${person.Cost} 000</td>
-  									</tr>`).join("\n");
-  return `<Table border="1">
-  			<tr>
-  				<th>Name</th>
-          <th>Type</th>
-  				<th>Cost</th>
-  			</tr>${names2}</Table>`
+  const names2 = people.map(person => `<option value="${person.ID}">${person.Name}</option>`).join("\n");
+  return `<select id="inf", name="Bridges & Inclines">${names2}</select>`
 }
