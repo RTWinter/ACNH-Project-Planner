@@ -1,0 +1,155 @@
+[
+  {
+    "Name": "Demolish",
+    "Type": "Other",
+    "Cost": 10,
+    "ID": 1,
+    "lmax": "",
+    "lmin": "",
+    "w": ""
+  },
+  {
+    "Name": "Stone",
+    "Type": "Bridge",
+    "Cost": 168,
+    "ID": 2,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Suspension",
+    "Type": "Bridge",
+    "Cost": 129,
+    "ID": 3,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Wooden",
+    "Type": "Bridge",
+    "Cost": 168,
+    "ID": 4,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Brick",
+    "Type": "Bridge",
+    "Cost": 198,
+    "ID": 5,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Zen",
+    "Type": "Bridge",
+    "Cost": 228,
+    "ID": 6,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Log",
+    "Type": "Bridge",
+    "Cost": 98,
+    "ID": 7,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Red zen",
+    "Type": "Bridge",
+    "Cost": 228,
+    "ID": 8,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Iron",
+    "Type": "Bridge",
+    "Cost": 228,
+    "ID": 9,
+    "lmax": 5,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Stone staircase",
+    "Type": "Incline",
+    "Cost": 168,
+    "ID": 10,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Red steel staircase",
+    "Type": "Incline",
+    "Cost": 228,
+    "ID": 11,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "White-plank ramp",
+    "Type": "Incline",
+    "Cost": 128,
+    "ID": 12,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Natural ramp",
+    "Type": "Incline",
+    "Cost": 98,
+    "ID": 13,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Log staircase",
+    "Type": "Incline",
+    "Cost": 168,
+    "ID": 14,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Blue-plank ramp",
+    "Type": "Incline",
+    "Cost": 128,
+    "ID": 15,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Blue steel staircase",
+    "Type": "Incline",
+    "Cost": 228,
+    "ID": 16,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  },
+  {
+    "Name": "Brick staircase",
+    "Type": "Incline",
+    "Cost": 198,
+    "ID": 17,
+    "lmax": 3,
+    "lmin": 3,
+    "w": 2
+  }
+]

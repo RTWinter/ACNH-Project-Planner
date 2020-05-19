@@ -1,0 +1,156 @@
+[
+  {
+    "ID": 1,
+    "Name": "Player Home 1",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 2,
+    "Name": "Player Home 2",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 3,
+    "Name": "Player Home 3",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 4,
+    "Name": "Player Home 4",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 5,
+    "Name": "Player Home 5",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 6,
+    "Name": "Player Home 6",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 7,
+    "Name": "Player Home 7",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 8,
+    "Name": "Player Home 8",
+    "L": 5,
+    "W": 4,
+    "Cost": 30
+  },
+  {
+    "ID": 9,
+    "Name": "Villager Home 1",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 10,
+    "Name": "Villager Home 2",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 11,
+    "Name": "Villager Home 3",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 12,
+    "Name": "Villager Home 4",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 13,
+    "Name": "Villager Home 5",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 14,
+    "Name": "Villager Home 6",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 15,
+    "Name": "Villager Home 7",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 16,
+    "Name": "Villager Home 8",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 17,
+    "Name": "Villager Home 9",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 18,
+    "Name": "Villager Home 10",
+    "L": 4,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 19,
+    "Name": "Museum",
+    "L": 7,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 20,
+    "Name": "Nook's Cranny",
+    "L": 7,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 21,
+    "Name": "Tailor",
+    "L": 5,
+    "W": 4,
+    "Cost": 50
+  },
+  {
+    "ID": 22,
+    "Name": "Campsite",
+    "L": 5,
+    "W": 4,
+    "Cost": 50
+  }
+]
