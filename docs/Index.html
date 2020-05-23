@@ -32,15 +32,21 @@
 	
 	function listBuilder () {
 
-  var e  = document.getElementById("bldgs")
-  var strBldg = e.value
-
-  var e2 = document.getElementById("inf")
-  var strBandI = e2.value
-
 	
+
+	var job = document.getElementById("projName")
+	var jobName = job.value
+
+	var e  = document.getElementById("bldgs")
+	var strBldg = e.value
+
+	var e2 = document.getElementById("inf")
+  	var strBandI = e2.value
 	console.log(strBldg)
-	console.log(strBandI)}
+	console.log(strBandI)
+	console.log(jobName)
+	sessionStorage.setItem ("plan", JSON.stringify([{name: jobName, step: 1, building: strBldg, bandi: strBandI}]))
+}
 
 </script>
 
