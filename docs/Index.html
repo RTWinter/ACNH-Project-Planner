@@ -1,53 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Animal Crossing</title>
-</head>
-<body>
-	<h1>Nook Inc. Island Redevelopment Tracker</h1>
-	Insert flavor text here about creating a project or opening an existing project
-	<h2>Project Name</h2>
-	<div id="projectName"></div>
-	<label for="newProj">Project Name: </label>
-	<input type="text" id="projName", name="Project Name">
-	<h2>Building List</h2>
-	<div>
-		<select id="bldgs" name="Buildings">
-		</select>
-	</div>
-	<script src="buildinglist.js"></script>
-	<h2>Bridges & Inclines</h2>
-	<div id="bAndI">
-		<select id="inf", name="Bridges & Inclines">
-		</select>
-	</div>
-	<script src = "infrastrucutre.js"></script>
-	<br><br><button onclick="listBuilder()">Add Day to Plan</button>
-	<br><br><div id="result"></div>
-	
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Animal Crossing</title>
+   </head>
+   <body>
+      <h1>Nook Inc. Island Redevelopment Tracker</h1>
+      Insert flavor text here about creating a project or opening an existing project
+      <h2>Project Name</h2>
+      <div id="projectName"></div>
+      <label for="newProj">Project Name: </label>
+      <input type="text" id="projName", name="Project Name">
+      <h2>Building List</h2>
+      <div>
+         <select id="bldgs" name="Buildings">
+         </select>
+      </div>
+      <script src="buildinglist.js"></script>
+      <h2>Bridges & Inclines</h2>
+      <div id="bAndI">
+         <select id="inf", name="Bridges & Inclines">
+         </select>
+      </div>
+      <script src = "infrastrucutre.js"></script>
+      <br><br><button onclick="listBuilder()">Add Day to Plan</button>
+      <br><br>
+      <div id="result"></div>
+      <div id="plans">
+      	<table id="planTable" border="1">
+      		<thead>
+      			<th>Phase</th>
+      			<th>Construction</th>
+      			<th>Total Cost</th>
+      		</thead>
+      		<tbody id = "currentPlan"></tbody>
+      	</table>
+      </div>
+   </body>
+   <script type="text/javascript">
+   	
+function listBuilder()
 
-<script type="text/javascript">
-	
-	function listBuilder () {
+{
+    var oldItems = JSON.parse(sessionStorage.getItem('plan')) || []; // Number of items in current array
+    var thisStep = oldItems.length + 1; // Number of current step
+    var job = document.getElementById("projName")
+    var jobName = job.value // Name of project, will be used to save multiple projects to local storage
+    var e = document.getElementById("bldgs")
+    var strBldg = e.value // id of building added in step
+    var e2 = document.getElementById("inf")
+    var strBandI = e2.value // id of infrastructure added in current step
+    var costBandI = e2.cost
+    console.log(costBandI)
+    console.log(strBldg) // debugging
+    console.log(strBandI)
+    console.log(jobName)
+    var newItem = {
+        name: jobName,
+        step: thisStep,
+        building: strBldg,
+        bandi: strBandI
 
-	
+    }; // Creates a new array? Object?
 
-	var job = document.getElementById("projName")
-	var jobName = job.value
+    console.log("Old items"); // Moar debug
+    console.log(oldItems);
+    console.log("New items");
+    console.log(newItem);
+    oldItems.push(newItem);
+    sessionStorage.setItem('plan', JSON.stringify(oldItems));
+    console.log(sessionStorage.plan);
+    findTable();
 
-	var e  = document.getElementById("bldgs")
-	var strBldg = e.value
+};
 
-	var e2 = document.getElementById("inf")
-  	var strBandI = e2.value
-	console.log(strBldg)
-	console.log(strBandI)
-	console.log(jobName)
-	sessionStorage.setItem ("plan", JSON.stringify([{name: jobName, step: 1, building: strBldg, bandi: strBandI}]))
+function findTable() 
+{
+const table = document.getElementById("currentPlan");
+table.innerHTML = planTableFactory()
+};
+
+function planTableFactory()
+
+{
+    var tempArray = JSON.parse(sessionStorage.plan)
+    const listOfSteps = tempArray.map(plan => "<tr><td>" + plan.step + "</td><td><table border='1'><tr><td>" + plan.building + "</td><td>$X</td></tr><tr><td>" + plan.bandi + "</td><td>"+plan.costInf+"</td></tr></table></td><td>$X + $Y</td></tr>").join("\n")
+    console.log(listOfSteps)
+    return listOfSteps
 }
 
-</script>
-
+   </script>
 </html>
