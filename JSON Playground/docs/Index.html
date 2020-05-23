@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animal Crossing</title>
+</head>
+<body>
+	<h1>Nook Inc. Island Redevelopment Tracker</h1>
+	Insert flavor text here about creating a project or opening an existing project
+	<h2>Project Name</h2>
+	<div id="projectName"></div>
+	<label for="newProj">Project Name: </label>
+	<input type="text" id="projName", name="Project Name">
+	<h2>Building List</h2>
+	<div>
+		<select id="bldgs" name="Buildings">
+		</select>
+	</div>
+	<script src="buildinglist.js"></script>
+	<h2>Bridges & Inclines</h2>
+	<div id="bAndI">
+		<select id="inf", name="Bridges & Inclines">
+		</select>
+	</div>
+	<script src = "infrastrucutre.js"></script>
+	<br><br><button onclick="listBuilder()">Add Day to Plan</button>
+	<br><br><div id="result"></div>
+	
+</body>
+
+<script type="text/javascript">
+	
+	function listBuilder () {
+
+  var e  = document.getElementById("bldgs")
+  var strBldg = e.value
+
+  var e2 = document.getElementById("inf")
+  var strBandI = e2.value
+
+	
+	console.log(strBldg)
+	console.log(strBandI)}
+
+</script>
+
+</html>
