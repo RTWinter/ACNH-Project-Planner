@@ -4,13 +4,6 @@
     "Name": "None",
     "Cost": 0
   },
-
-  {
-    "ID": "inf_1",
-    "Name": "Demolition",
-    "Type": "Other",
-    "Cost": 10
-  },
   {
     "ID": "inf_2",
     "Name": "Stone",

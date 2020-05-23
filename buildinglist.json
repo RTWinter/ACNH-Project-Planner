@@ -1,5 +1,10 @@
 [
   {
+    "ID": "bldg_0",
+    "Name": "None",
+    "Cost": 0
+  },
+  {
     "ID": "bldg_1",
     "Name": "Player Home 1",
     "L": 5,
