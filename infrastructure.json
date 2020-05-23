@@ -1,5 +1,10 @@
 [
   {
+    "ID": "inf_0",
+    "Name": "None",
+    "Cost": 0
+  }
+  {
     "ID": "inf_1",
     "Name": "Demolition",
     "Type": "Other",
