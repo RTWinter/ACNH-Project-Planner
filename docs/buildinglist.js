@@ -10,5 +10,5 @@ fetchPromise.then(response => {
 });
 function listOfNames(people) {
   const names = people.map(person => `<option value="${person.ID}">${person.Name}</option>`).join("\n");
-  return `<select id="bldgs" name="Building">${names}</select>`
+  return `<select id="bldgs" name="Building"><option value="N/A">Choose a Building</option>${names}</select>`
 }

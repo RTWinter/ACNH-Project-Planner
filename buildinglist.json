@@ -1,153 +1,153 @@
 [
   {
-    "ID": 1,
+    "ID": "bldg_1",
     "Name": "Player Home 1",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 2,
-    "Name": "Player Home Two",
+    "ID": "bldg_2",
+    "Name": "Player Home 2",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 3,
+    "ID": "bldg_3",
     "Name": "Player Home 3",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 4,
+    "ID": "bldg_4",
     "Name": "Player Home 4",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 5,
+    "ID": "bldg_5",
     "Name": "Player Home 5",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 6,
+    "ID": "bldg_6",
     "Name": "Player Home 6",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 7,
+    "ID": "bldg_7",
     "Name": "Player Home 7",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 8,
+    "ID": "bldg_8",
     "Name": "Player Home 8",
     "L": 5,
     "W": 4,
     "Cost": 30
   },
   {
-    "ID": 9,
+    "ID": "bldg_9",
     "Name": "Villager Home 1",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 10,
+    "ID": "bldg_10",
     "Name": "Villager Home 2",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 11,
+    "ID": "bldg_11",
     "Name": "Villager Home 3",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 12,
+    "ID": "bldg_12",
     "Name": "Villager Home 4",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 13,
+    "ID": "bldg_13",
     "Name": "Villager Home 5",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 14,
+    "ID": "bldg_14",
     "Name": "Villager Home 6",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 15,
+    "ID": "bldg_15",
     "Name": "Villager Home 7",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 16,
+    "ID": "bldg_16",
     "Name": "Villager Home 8",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 17,
+    "ID": "bldg_17",
     "Name": "Villager Home 9",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 18,
+    "ID": "bldg_18",
     "Name": "Villager Home 10",
     "L": 4,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 19,
+    "ID": "bldg_19",
     "Name": "Museum",
     "L": 7,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 20,
+    "ID": "bldg_20",
     "Name": "Nook's Cranny",
     "L": 7,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 21,
+    "ID": "bldg_21",
     "Name": "Tailor",
     "L": 5,
     "W": 4,
     "Cost": 50
   },
   {
-    "ID": 22,
+    "ID": "bldg_22",
     "Name": "Campsite",
     "L": 5,
     "W": 4,
